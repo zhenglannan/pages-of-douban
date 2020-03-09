@@ -1,0 +1,19 @@
+/* 浮动 */
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* 按钮样式 */
+.btn{
+    border-radius: 3px;
+    background-color:  #00B51D;
+    text-align: center;
+}
+
+
+/* 隐藏样式 */
+.hidden{
+    display: none;
+}

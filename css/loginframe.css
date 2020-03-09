@@ -1,0 +1,214 @@
+.login .codelogin {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.codelogin {
+    display: none;
+}
+
+/* 第一部分 */
+.login .title {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #ececec;
+}
+
+.login .title span {
+    width: 150px;
+    display: block;
+    color: #9b9b9b;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    /* vertical-align: middle; */
+}
+
+.login .title span.selected{
+    border-bottom: 1px solid #494949;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 第二部分 ：输入*/
+.login .input {
+    width: 300px;
+    color: #9b9b9b;
+    font-size: 12px;
+    margin: 10px 0;
+    display: inline-block;
+    position: relative;
+    display: none;
+}
+
+.login  a {
+    color: #41ac52;
+}
+
+.login .input .phonenum {
+    width: 300px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e4e6e5;
+    text-indent: 55px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.login .input .countrynum {
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    left: 10px;
+    border-right: 1px solid #e4e6e5;
+    padding-right: 11px;
+}
+
+.login .input .vertifycode {
+    width: 300px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e4e6e5;
+    text-indent: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.login .input .getcode {
+    color: #41ac52;
+    font-size: 13px;
+    position: absolute;
+    top: 82px;
+    left: 230px;
+}
+
+.login  .loginbtn {
+    border-radius: 3px;
+    width: 100%;
+    height: 33px;
+    background-color: rgba(66, 189, 86, .5);
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login  .last {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.login  .last span {
+    color: #333;
+    font-size: 13px;
+}
+
+.login  .last a {
+    color: #41ac52;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.login .input2 {
+    width: 300px;
+    color: #9b9b9b;
+    font-size: 12px;
+    margin: 10px 0;
+    display: inline-block;
+    position: relative;
+    /* display: none;     */
+}
+.login .input2 .phonenum {
+    width: 300px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e4e6e5;
+    text-indent: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.login .input2 .vertifycode {
+    width: 300px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e4e6e5;
+    text-indent: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.login .input2 p a {
+   float: right;
+}
+/* 第三部分：最后一行 */
+.login .thirdlogin span {
+    color: #9b9b9b;
+    vertical-align: super;
+    font-size: 11px;
+    height: 21px;
+    line-height: 21px;
+    display: inline-block;
+}
+
+.login .thirdlogin a {
+    height: 21px;
+    line-height: 21px;
+}
+
+.login .thirdlogin img {
+    height: 20px;
+    width: 20px;
+    margin: 0 0 0 12px;
+}
+/* 密码，二维码切换登陆 */
+.login .code img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+}
+
+.codelogin p {
+    border-bottom: 1px solid #494949;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #ececec;
+    font-size: 13px;
+    padding-bottom: 9px;
+    margin-top: 18px;
+}
+
+.codelogin img {
+    width: 170px;
+    height: 170px;
+}
+.codelogin a img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.codelogin .scan{
+    text-align: center;
+    margin-top: 25px
+}
+.codelogin .scan p{
+    width: 183px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 7px 0;
+    color: #494949;
+    margin-left: 60px;
+    background-color: rgba(0,0,0,.08);
+}

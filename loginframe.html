@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/loginframe.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1539254_msqc5f3ms5.css">
+    <title>login</title>
+</head>
+
+<body>
+    <!-- 账号注册界面-->
+    <div class="login">
+        <!-- 二维码 -->
+        <div class="code">
+            <a href="javacript:void(0)"><img src="img/logincode.png"></a>
+        </div>
+        <div class="title clearfix">
+            <span class="left selected">短信登陆/注册</span>
+            <span class="left">密码登陆</span>
+        </div>
+        <!-- 短信登陆/注册 -->
+        <div class="input">
+            <p>请仔细阅读 <a href="">豆瓣使用协议、隐私政策</a></p>
+            <input class="phonenum" type="text" placeholder="手机号">
+            <div class="countrynum">+86</div>
+            <input class="vertifycode" type="text" placeholder="验证码">
+            <div class="getcode">
+                <a href="">获取验证码</a>
+            </div>
+            <button class="loginbtn">登陆豆瓣</button>
+            <div class="last clearfix">
+                <input type="checkbox"><span>下次自动登陆</span>
+                <a href="" class="right">收不到验证码</a>
+            </div>
+        </div>
+        <!-- 密码登陆 -->   
+        <div class="input2">
+            <p class="clearfix"> <a href="">找回密码</a></p>
+            <input class="phonenum" type="text" placeholder="手机号/邮箱">
+           
+            <input class="vertifycode" type="text" placeholder="密码">
+          
+            <button class="loginbtn">登陆豆瓣</button>
+            <div class="last clearfix">
+                <input type="checkbox"><span>下次自动登陆</span>
+                <a href="" class="right">海外手机登陆</a>
+            </div>
+        </div>
+        <div class="thirdlogin">
+            <span>第三方登陆:</span>
+            <a href="#"><img src="img/weixin.svg" title="用微信登陆"></a>
+            <a href="#"><img src="img/weibo.svg" title="用微博登陆"></a>
+        </div>
+    </div>
+    <!-- 二维码登陆界面 -->
+    <div class="codelogin">
+        <div>
+            <a href="javascript:void(0)">
+                <img src="img/logincomputer.png">
+            </a>
+        </div>
+        <p>二维码登陆</p>
+        <div class="scan">
+            <img src="img/qrcode.png">
+            <p>请打开豆瓣客户端扫一扫</p>
+        </div>
+    </div>
+</body>
+
+</html>
